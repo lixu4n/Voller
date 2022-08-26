@@ -19,6 +19,7 @@ struct SignUpView: View {
     @State private var gender = 0
     @State private var height = ""
   
+    //
 
 
     
