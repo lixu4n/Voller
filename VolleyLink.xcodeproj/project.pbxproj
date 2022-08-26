@@ -17,6 +17,10 @@
 		6994F20A28B44CD300CE3F55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6994F1E028B44CCF00CE3F55 /* ContentView.swift */; };
 		6994F20B28B44CD300CE3F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6994F1E128B44CD200CE3F55 /* Assets.xcassets */; };
 		6994F20C28B44CD300CE3F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6994F1E128B44CD200CE3F55 /* Assets.xcassets */; };
+		69C18D4728B50EAB00167C3B /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C18D4628B50EAB00167C3B /* HomePageView.swift */; };
+		69C18D4828B50EAB00167C3B /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C18D4628B50EAB00167C3B /* HomePageView.swift */; };
+		69C18D4B28B512D600167C3B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C18D4A28B512D600167C3B /* SignUpView.swift */; };
+		69C18D4C28B512D600167C3B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C18D4A28B512D600167C3B /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		6994F1FF28B44CD300CE3F55 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6994F20328B44CD300CE3F55 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6994F20528B44CD300CE3F55 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		69C18D4628B50EAB00167C3B /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		69C18D4A28B512D600167C3B /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				6994F1DF28B44CCF00CE3F55 /* VolleyLinkApp.swift */,
-				6994F1E028B44CCF00CE3F55 /* ContentView.swift */,
+				69C18D4928B50EF000167C3B /* Views */,
 				6994F1E128B44CD200CE3F55 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +145,16 @@
 				6994F20528B44CD300CE3F55 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		69C18D4928B50EF000167C3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6994F1E028B44CCF00CE3F55 /* ContentView.swift */,
+				69C18D4A28B512D600167C3B /* SignUpView.swift */,
+				69C18D4628B50EAB00167C3B /* HomePageView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +315,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C18D4B28B512D600167C3B /* SignUpView.swift in Sources */,
 				6994F20928B44CD300CE3F55 /* ContentView.swift in Sources */,
+				69C18D4728B50EAB00167C3B /* HomePageView.swift in Sources */,
 				6994F20728B44CD300CE3F55 /* VolleyLinkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C18D4C28B512D600167C3B /* SignUpView.swift in Sources */,
 				6994F20A28B44CD300CE3F55 /* ContentView.swift in Sources */,
+				69C18D4828B50EAB00167C3B /* HomePageView.swift in Sources */,
 				6994F20828B44CD300CE3F55 /* VolleyLinkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
