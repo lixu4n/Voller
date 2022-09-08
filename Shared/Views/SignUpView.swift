@@ -50,7 +50,7 @@ struct SignUpView: View {
                         
                     }
                     
-                    TextField ("Password", text: $password)
+                    TextField ("Height", text: $password)
                     
                 }
             }
