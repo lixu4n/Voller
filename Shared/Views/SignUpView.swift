@@ -3,6 +3,7 @@
 //  Voller
 //
 //  Created by Lixuan Guo on 2022-08-23.
+//  Collaborative project
 
 import SwiftUI
 
