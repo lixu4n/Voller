@@ -22,7 +22,7 @@ struct SignUpView: View {
     //
 
 
-    //
+    ///
 
     var body: some View {
         NavigationView {
